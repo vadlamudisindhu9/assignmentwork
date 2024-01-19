@@ -15,7 +15,7 @@
 		<property name="role" value="trainer" />
 	</bean>
 
-	<bean id="empDAO" class="UseBeans.EmployeeDAOImp">
+	<bean id="empDAO" class="UseBeans.EmployeeDAOImpl">
 		<property name="empList">
 			<list>
 				<ref bean="employee1" />
